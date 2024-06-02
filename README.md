@@ -1,12 +1,28 @@
 
-![tw-banner](https://github.com/thirdweb-example/next-starter/assets/57885104/20c8ce3b-4e55-4f10-ae03-2fe4743a5ee8)
 
-# thirdweb-next-starter
+# GM
+
+pip install -r requirements.txt
+
+streamlit run investment_agent.py
+
+# How it Works?
+
+Upon running the app, you will be prompted to enter your OpenAI API key. This key is used to authenticate and access the OpenAI language model.
+Once you provide a valid API key, an instance of the Assistant class is created. This assistant utilizes the GPT-4 language model from OpenAI and the YFinanceTools for accessing stock data.
+Enter the stock symbols of the two companies you want to compare in the provided text input fields.
+The assistant will perform the following steps:
+Retrieve real-time stock prices and historical data using YFinanceTools
+Fetch the latest company news and analyst recommendations
+Gather comprehensive company information
+Generate a detailed comparison report using the GPT-4 language model
+The generated report will be displayed in the app, providing you with valuable insights and analysis to guide your investment decisions.
+
 
 uvicorn main:app --reload
 
 
-Summary:
+# Summary:
 
 	1.	Set up a FastAPI server in Python to expose your RAG AI agent.
 	2.	Create and run the FastAPI server to listen for requests.
