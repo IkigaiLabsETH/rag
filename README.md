@@ -30,6 +30,59 @@ uvicorn main:app --reload
 	4.	Create a service in Next.js to interact with the Python API.
 	5.	Use the service in a Next.js component to fetch and display the RAG AI agent’s responses.
 
+# Goal
+
+💻 GPT Computer Assistant to brainstorm about web3 investments - NFA
+
+pip3 install gpt-computer-assistant
+
+** After first click to an option that include microphone or system audio you need to stop with another click to same option.
+
+## Installation && Run
+
+```console
+pip3 install gpt-computer-assistant
+```
+
+```console
+computerassistant
+```
+
+
+
+## Capabilities
+At this time we have many infrastructure element. We just aim to provide whole thinks that already in ChatGPT app.
+
+ - **Screen Read**
+ - Microphone
+ - **System Audio**
+ - Memory
+
+--
+ - Open and close app
+ - Open a url
+ - **Clipboard**
+ - Search Engines
+ - **Python and SH Interpreters**
+ - Writing and Running Scripts
+ - Using your Telegram Account
+ - Knowledge Management
+
+
+#### Todo
+- [x] Reset Option
+- [x] Splitting long audios. (Whisper api just support <20mb)
+- [x] Text input area
+- [x] Just text mode (no voice answer)
+- [x] Added different profiles
+- [ ] More Effect
+
+- [ ] Windows .exe
+- [ ] Linux native
+- [ ] MacOS native
+
+
+
 # Challenges
 
 Combining Python and TypeScript/Next.js in a single application introduces several challenges and potential downsides. Here are the most notable ones:
